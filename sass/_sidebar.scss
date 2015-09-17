@@ -1,0 +1,44 @@
+@import "bourbon/bourbon";
+@import "neat/neat";
+@import 'colours';
+
+
+//SIDEBAR STYLES
+
+.sidebar {
+	float: right;
+	width: 20%;
+	font-size: 1.4rem;
+}
+
+.sidebar-list, .sidebar-list ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.sidebar-list li a {
+	color: $slategrey;
+}
+
+.sidebar-list li a:hover {
+	color: $teal;
+}
+
+.widget-title {
+	padding: 5% 0;
+	margin: 10% 20px 8% 0;
+	border-bottom: 1px solid $teal;
+	border-top: 1px solid $teal;
+}
+
+#searchform {
+	margin-bottom: 0;
+}
+
+input.searchsubmit {
+	background: $teal;
+	color: white;
+	margin-top: 20px;
+	border: none;
+}

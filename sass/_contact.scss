@@ -1,0 +1,73 @@
+@import "bourbon/bourbon";
+@import "neat/neat";
+@import 'colours';
+
+
+//CONTACT STYLES
+	
+
+.contact-post {
+	text-align: left;
+	background: $lightgrey;
+}
+
+.contact-post p {
+	font-size: 1.4rem;
+}
+
+//FORM STYLES
+
+.wpcf7-form {
+	text-align: center;
+	padding: 10px 0;
+}
+
+.wpcf7-form input {
+	border: none;
+	padding:1%;
+	margin: 1% auto;
+	background: white;
+	border-radius: 2px;
+	width: 90%;
+}
+
+.wpcf7-form input:focus, .wpcf7-form textarea:focus {
+	outline: 2px solid $teal;
+}
+
+.wpcf7-form textarea {
+	border: none;
+	width: 90%;
+	margin: 1% 0;
+	border-radius: 2px;
+}
+
+.wpcf7-form span {
+	display: block;
+	width: 100%;
+}
+
+
+.wpcf7-form-control {
+	width: 100%;
+}
+
+.wpcf7-form-control.wpcf7-submit {
+	text-transform: uppercase;
+	border: 2px solid $slategrey;
+	padding: 20px;
+	color: $slategrey;
+	text-align: center;
+	font-size: 1.5rem;
+	padding: 20px;
+	display: inline-block;
+	width: 30%;
+	background: none;
+	font-family: 'Belleza', sans-serif;
+}
+
+.wpcf7-form-control.wpcf7-submit:hover {
+	border: 2px solid $teal;
+	color: $teal;
+	background: white;
+}

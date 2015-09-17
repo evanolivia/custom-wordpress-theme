@@ -1,0 +1,205 @@
+/*
+* Theme Name: HackerYou Starter Theme
+* Theme URI: http://hackeryou.com;
+* Description: Starter theme for building any website. Created by HackerYou. * Rename this to your own theme page.
+* Version: 1.0
+* Author: HackerYou
+* Author URI: http://hackeryou.com
+*/
+
+@import 'normalize';
+@import 'typography';
+@import 'navigation';
+@import 'sidebar';
+@import 'comments';
+@import 'header';
+@import 'homepage';
+@import 'singlepost';
+@import 'about';
+@import 'gallery';
+@import 'footer';
+@import 'contact';
+/*
+====================================
+Default Styling
+====================================
+*/
+@import "bourbon/bourbon";
+@import "neat/neat";
+@import 'colours';
+
+html {
+	font-size: 10px;
+	background: $teal;
+}
+
+body {
+	color: #333;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1rem;
+}
+
+img {
+	max-width: 100%;
+}
+
+h1,
+h2,
+h3 {
+	font-family: 'Belleza', sans-serif;
+	margin: 0;
+}
+
+h1 {
+	font-size: 1.9rem;
+	display: inline-block;
+	margin: 0;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 3rem;
+	padding: 15px 0;
+	margin: 25px 0 20px;
+	display: inline-block;
+	border-bottom: 2px solid $slategrey;
+}
+
+p {
+	font-size: 1.6rem;
+	margin-bottom: 20px;
+}
+
+a {
+	color: $teal;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	@include outer-container;
+}
+
+.content {
+	float: left;
+	width: 100%;
+}
+
+.content-grey {
+	background: $lightgrey;
+}
+
+.full {
+	width: 100%;
+}
+
+
+//ARCHIVES STYLES
+.type-post {
+	background: $lightgrey;
+}
+
+.category-title {
+	padding: 5% 0;
+}
+
+.author-title, .author-description {
+	background: $lightgrey;
+}
+
+
+//404 NOT FOUND
+.not-found-container{
+	background:white;
+}
+
+.not-found-body{
+	height:70vh;
+	text-align: center;
+	padding-top: 25vh;
+}
+
+
+//SINGLE PHOTO PAGE CONTENT
+.page-main{
+	min-height: 70vh;
+}
+
+.page-content {
+	@include span-columns(9);
+	min-height: 50vh;
+	margin: 24px 2% 0 0;
+}
+
+.page-main .sidebar {
+	background: white;
+	padding: 2%;
+	@include span-columns(3);
+	min-height: 81vh;
+}
+
+.page-main .sidebar h3 {
+	margin-right: 0;
+}
+
+.page-content {
+	text-align: center;
+}
+
+.page-content-title,
+.page-content-content {
+	margin: 0 0% 3% 0;
+	background: white;
+	padding: 5%;
+}
+
+.page-content img {
+	width: 100%;
+	height: auto;
+}
+
+.page-content-content {
+	text-align: left;
+}
+
+
+//AUTHOR PAGE
+
+.author-archives-title {
+	margin-top: 20px;
+}
+
+.author-info{
+	@include span-columns(12);
+	margin-top: 30px;
+}
+
+.author-title,
+.author-pic,
+.author-description{
+	float: left;
+}
+.author-pic{
+	@include span-columns(3);
+	margin: 2% 0 0 0;
+}
+
+.author-title, .author-description{
+	@include span-columns(8);
+	margin-left: 20px;
+}
+
+.author-title h2 {
+	margin-top: 0;
+}
+
+.author-description{
+	@include span-columns(8);
+	font-size: 1.4rem;
+}
+
+
+

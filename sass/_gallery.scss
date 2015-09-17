@@ -1,0 +1,35 @@
+@import "bourbon/bourbon";
+@import "neat/neat";
+@import 'colours';
+
+
+//GALLERY STYLES
+.gallery {
+	background: $lightgrey;
+	margin:0;
+	padding: 0;
+	@include outer-container;
+}
+
+.gallery-container {
+	background:  $lightgrey;
+	margin: 0;
+}
+
+.gallery-container h2 {
+	margin: 25px 0;
+}
+
+.gallery-item {
+	margin: 5px !important;
+	float: left;
+}
+
+.gallery-item img {
+	height: 185px !important;
+	max-height: 185px !important;
+	min-height: 185px !important;
+	width: 185px !important;
+	max-width: 185px !important;
+	min-width: 185px !important;
+}

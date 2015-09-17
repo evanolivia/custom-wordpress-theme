@@ -1,0 +1,22 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* TEAM */
+  Front-end developer: Evan Davis
+  Site: evanolivia.com
+  Twitter: evanolivia_
+  Location: Toronto
+
+  Front-end developer: Jeanne Schiller
+  Site: jeanneschiller.com
+  Twitter: jeanneschiller
+  Location: Toronto
+
+/* THANKS */
+  Custom wordpress theme by Evan Davis (evanolivia.com) & Jeanne Schiller (jeanneschiller.com)
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: jQuery
+  Software: WordPress

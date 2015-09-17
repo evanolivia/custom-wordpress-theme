@@ -1,0 +1,9 @@
+@import "bourbon/bourbon";
+@import "neat/neat";
+@import 'colours';
+
+.about-post .wp-post-image {
+	float: left;
+	margin-right: 25px;
+}
+

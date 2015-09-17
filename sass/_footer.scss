@@ -1,0 +1,42 @@
+@import "bourbon/bourbon";
+@import "neat/neat";
+@import 'colours';
+
+
+//FOOTER STYLES
+
+.social-footer {
+	@include span-columns(12);
+	text-align: center;
+	color: $slategrey;
+	background: $lightgrey;
+	padding: 3%;
+	width: 100%;
+}
+
+.social-footer li {
+	display: block;
+}
+
+.social-footer  i {
+	color: $slategrey;
+}
+
+.social-footer  a {
+	font-size: 2rem;
+	padding: 0 1%;
+}
+
+.social-footer i:hover {
+	color: $teal;
+}
+
+.social-footer .contact {
+	font-size: 1.6rem;
+	padding: 0;
+	color: $slategrey;
+}
+
+.social-footer a:hover {
+	color: $teal;
+}

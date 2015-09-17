@@ -1,0 +1,112 @@
+@import "bourbon/bourbon";
+@import "neat/neat";
+@import 'colours';
+
+
+//SINGLE POST STYLES
+.single-container {
+	background: white;
+}
+
+.entry-meta {
+	padding-bottom: 25px;
+	width: 100%;
+}
+
+.entry-title, .entry-author, .entry-date, .entry-content {
+	float: left;
+}
+
+.entry-title {
+	font-size: 2.25rem;
+	text-align: left;
+	width: 100%;
+}
+
+.entry-title h1 {
+	font-size: 3rem;
+	padding: 15px 0;
+	margin-bottom: 10px;
+	border-bottom: 2px solid $slategrey;
+}
+
+.entry-title a {
+	color: $slategrey;
+}
+
+.entry-title a:hover {
+	color: $teal;
+}
+
+.entry-date {
+	color: $slategrey;
+	margin: 0;
+	padding-left: 5px;
+}
+
+.entry-author {
+	font-size: 1.6rem;
+	margin: 0;
+}
+
+.entry-author a:hover {
+	padding-bottom: 2px;
+	border-bottom: 2px solid $teal;
+	color: $teal;
+}
+
+.entry-content {
+	font-size: 1.6rem;
+}
+
+.entry-content p {
+	padding-top: 1%;
+}
+
+.addtoany_content_bottom {
+	text-align: right;
+	float: right;
+	margin: 0;
+}
+
+.entry-utility {
+	background: $lightgrey;
+	color: $slategrey;
+	font-size: 1.2rem;
+	padding-left: 25%;
+	float: left;
+	margin-top: 25px;
+}
+
+.entry-utility a {
+	color: $teal;
+} 
+
+.entry-utility a:hover {
+	color: #000;
+}
+
+#nav-below {
+	background: $lightgrey;
+	color: $teal;
+}
+
+#nav-below p {
+	margin: 0;
+	width: 50%;
+	float: left;
+	background: $lightgrey;
+	font-size: 2rem;
+}
+
+#nav-below p a {
+	color: $slategrey;
+}
+
+#nav-below p a:hover {
+	color: $teal;
+}
+
+.nav-next {
+	text-align: right;
+}
